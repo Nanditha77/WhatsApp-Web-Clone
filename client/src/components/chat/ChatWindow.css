@@ -93,32 +93,9 @@
 @media (max-width: 768px) {
 
   .chat-window {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
     width: 100%;
     border-left: none;
   }
-
-  .chat-header {
-    flex-shrink: 0; /* fixed height at top */
-    padding: 8px 10px;
-    align-items: center;
-  }
-
-  .chat-messages {
-    flex: 1; /* take up remaining space */
-    overflow-y: auto; /* scroll only inside message area */
-    padding: 0.5rem;
-  }
-
-  .messagebox {
-    flex-shrink: 0; /* fixed height at bottom */
-    padding: 6px;
-    border-top: 1px solid #ddd; /* optional */
-    background: white; /* keep it visible */
-  }
-}
 
   .home-container.chat-open .sidebar {
     display: none;
@@ -140,7 +117,7 @@
   .messagebox {
     padding: 6px;
   }
-
+}
 
 .mobile-back {
   display: none;
