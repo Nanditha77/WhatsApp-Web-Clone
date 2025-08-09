@@ -94,7 +94,7 @@
 
   .chat-window {
     width: 100%;
-    height: 95%;
+    height: 98%;
     border-left: none;
   }
 
@@ -103,7 +103,7 @@
   }
 
   .chat-header {
-    padding: 4px 10px;
+    padding: 4px 4px;
     align-items: center;
   }
 
@@ -112,6 +112,9 @@
     margin-left: 1px;
   }
   
+  .contact{
+    margin-left: -15px;
+  }
   
 
   .chat-messages {
