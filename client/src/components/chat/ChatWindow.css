@@ -94,7 +94,7 @@
 
   .chat-window {
     width: 100%;
-    height: 98%;
+    height: 90%;
     border-left: none;
   }
 
@@ -119,6 +119,7 @@
 
   .chat-messages {
     padding: 0.5rem;
+    
   }
 
   .messagebox {
