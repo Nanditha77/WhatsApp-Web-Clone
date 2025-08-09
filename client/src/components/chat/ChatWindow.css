@@ -118,6 +118,7 @@
     border-top: 1px solid #ddd; /* optional */
     background: white; /* keep it visible */
   }
+}
 
   .home-container.chat-open .sidebar {
     display: none;
@@ -150,6 +151,7 @@
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
   .mobile-back {
     display: inline-flex;
     align-items: center;
