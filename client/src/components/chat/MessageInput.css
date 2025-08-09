@@ -1,0 +1,42 @@
+.message-input-container {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  background: #f0f0f0;
+  width: 100%;       
+}
+
+.message-input-container input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.message-input-container button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: #0d8b37ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.input-icons {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  background-color: white;
+  width:100%;
+}
+
+.input-icons input {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
