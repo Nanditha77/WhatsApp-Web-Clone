@@ -93,10 +93,8 @@
 @media (max-width: 768px) {
 
   .chat-window {
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     border-left: none;
   }
 
@@ -105,7 +103,6 @@
   }
 
   .chat-header {
-    flex: 1;
     padding: 8px 10px;
     align-items: center;
   }
@@ -116,7 +113,7 @@
   }
   
   .contact {
-    margin-left: 2px; 
+    margin-left: -14px; 
   }
 
   .chat-messages {
@@ -124,7 +121,6 @@
   }
 
   .messagebox {
-    flex-shrink: 0;
     padding: 6px;
   }
 }
