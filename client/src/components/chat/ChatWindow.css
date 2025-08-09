@@ -118,7 +118,6 @@
     border-top: 1px solid #ddd; /* optional */
     background: white; /* keep it visible */
   }
-}
 
   .home-container.chat-open .sidebar {
     display: none;
@@ -176,3 +175,4 @@
     height: 100vh;
     border-left: none;
   }
+}
