@@ -17,8 +17,8 @@ app.use(cors({
   credentials: true
 }));
 
-app.get("/ping", (requ, resp) => {
-  resp.status(200).send("OK");
+app.get("/", (req, res) => {
+  res.send("Backend is running 🚀");
 });
 
 const server = http.createServer(app);
