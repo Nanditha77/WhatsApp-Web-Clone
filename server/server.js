@@ -17,6 +17,10 @@ app.use(cors({
   credentials: true
 }));
 
+app.get("/ping", (requ, resp) => {
+  resp.status(200).send("OK");
+});
+
 const server = http.createServer(app);
 
 const io = new Server(server, {
