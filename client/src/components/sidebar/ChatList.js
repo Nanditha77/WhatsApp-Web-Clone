@@ -31,7 +31,7 @@ const ChatList = () => {
     <div className="chatlist-container">
     <div className='menu-head'>
       <div className='logo'>
-      <strong><h2 style={{color:"green"}}>LetsChat</h2></strong>
+      <strong><h2 style={{color:"purple"}}>LetsChat</h2></strong>
       </div>
       <div className='list-icons'>
       <h2><i class="fa-regular fa-message"></i></h2>
@@ -45,7 +45,7 @@ const ChatList = () => {
          />
       </div>
       <div className='customchat'>
-        <button style={{backgroundColor:"#c1eeb7ff"}}>All</button>
+        <button style={{backgroundColor:"#d9bfdaff"}}>All</button>
         <button>Unread</button>
         <button>Favourites</button>
         <button>Groups</button>
