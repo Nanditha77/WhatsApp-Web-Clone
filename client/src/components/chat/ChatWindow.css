@@ -13,10 +13,10 @@
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;
-  background-image: url(https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHbjKnLL8PUbhKs8Vnix0F4skweW82FZj0eA&s);
 }
 
-.chat-messages::-webkit-scrollbar {
+.chat-messages::-webkit-scrollbar {   
   width: 6px;
 }
 
