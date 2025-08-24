@@ -14,6 +14,7 @@
   flex-direction: column;
   scroll-behavior: smooth;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHbjKnLL8PUbhKs8Vnix0F4skweW82FZj0eA&s);
+  background-repeat: no-repeat;
 }
 
 .chat-messages::-webkit-scrollbar {   
