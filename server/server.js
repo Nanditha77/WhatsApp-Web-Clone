@@ -12,7 +12,9 @@ app.use(express.json());
 
 
 app.use(cors({
-  origin: 'https://whatsapp-web-clone-wheat.vercel.app', 
+  origin: ['https://whatsapp-web-clone-wheat.vercel.app', 
+          'http://localhost:3000'
+  ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
@@ -25,7 +27,9 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: 'https://whatsapp-web-clone-wheat.vercel.app', 
+    origin: ['https://whatsapp-web-clone-wheat.vercel.app',
+          'http://localhost:3000'
+  ], 
     methods: ['GET', 'POST']
   }
 });
